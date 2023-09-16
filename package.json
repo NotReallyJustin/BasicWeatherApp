@@ -1,0 +1,22 @@
+{
+  "name": "basicweatherapp",
+  "version": "1.0.0",
+  "description": "A really bad and vulnerable weather app",
+  "main": "Main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotReallyJustin/BasicWeatherApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotReallyJustin/BasicWeatherApp/issues"
+  },
+  "homepage": "https://github.com/NotReallyJustin/BasicWeatherApp#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
