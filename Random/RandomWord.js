@@ -3,7 +3,7 @@ const https = require('https');
 module.exports = () => new Promise((resolve, reject) => {
     https.get('https://api.api-ninjas.com/v1/randomword', {
         headers: {
-            'X-Api-Key': 'gAAAAABlBwtvW-hlwqAHJ1pc-xoFgyNBKiEk98hVIjapTFDRTJI57u_v6Vuen3uur1aO0EqFWQnErqXnHwoV_fI0ENKsKXoVM2PVy95VuU0l6z8g_NSLmliU6jwSOmNnWf7RvX1u1_tH'
+            'X-Api-Key': 'gAAAAABlBwt1Rg6KN5wWLbeO8Z4n9y_wrMCLCyTG-HAN5gl5mGbrF8cCkaqSswPxGXHLOFaYKxcqJm-JhDitf1JGcEcatOcYYiY2bNZDKXUiFp-eopvM9xCty9JL_YuUKScKWKQyxQDw'
         },
     }, (res) => {
         var chunk = "";
@@ -18,4 +18,4 @@ module.exports = () => new Promise((resolve, reject) => {
     });
 });
 
-let randomThingy = 'gAAAAABlBwtvHaPZdoJhwP8IFJ7-aJHdXFCKL8uykUDzPIXFdDV0DT-GKx7BRtQn4RsCLlCFd5-Rj_r1em9_Zj4EzAAf6hvbJ0lb-daT9PnS0-kBt9mOOclT_ei4VJOYmqPH3gLj_Vw9';
+let randomThingy = 'gAAAAABlBwt1qnOUZDGqvJgtASF6GLm-ovJAej_DC6Lhsu178bFMqkSN5jJqbdsy_tUjNqC23KjMWKcPTczp31mazn1_rKi5X3xDcdSzsy2sQCdoYeiut8W4uMb8OtBCyCM_30NvZ3s0';
