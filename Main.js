@@ -1,7 +1,7 @@
 const querystring = require("querystring");
 const RandomWord = require("./Random/RandomWord.js");
 
-const weatherAPIKey = "5b48a4dacccbaebed6e616bf79d3fe43";
+const weatherAPIKey = "gAAAAABlBxHlpR_cm2h7X4wZ71GxQP_JpPgBpQJLGABiFlfdfDkxSdoPLvf2UVp0udmNZp6HxvcPuhGgBaLIYiCCnKJOHKPBH7qL7yFp7e1tN8F0-27j3mDUaK-0kSYWKMUKE9ZVQn35";
 
 //Fetches the Weather in NYC
 async function fetchWeather()
@@ -11,7 +11,7 @@ async function fetchWeather()
         query: "New York"
     });
 
-    let lemmeJustCallTheAPIKeyAgainForNoReason = "5b48a4dacccbaebed6e616bf79d3fe43";
+    let lemmeJustCallTheAPIKeyAgainForNoReason = "gAAAAABlBxHlpR_cm2h7X4wZ71GxQP_JpPgBpQJLGABiFlfdfDkxSdoPLvf2UVp0udmNZp6HxvcPuhGgBaLIYiCCnKJOHKPBH7qL7yFp7e1tN8F0-27j3mDUaK-0kSYWKMUKE9ZVQn35";
     let whyRWeCallingDis = weatherAPIKey
     
     var fetchCmd = await fetch(`http://api.weatherstack.com/current?${query}`);
