@@ -3,7 +3,7 @@ const https = require('https');
 module.exports = () => new Promise((resolve, reject) => {
     https.get('https://api.api-ninjas.com/v1/randomword', {
         headers: {
-            'X-Api-Key': '3n2Q4G9BbDnar73lbU/LPQ==6MoLMcahNldNAxET'
+            'X-Api-Key': '3n2Q4G9BbDnar73lbULPQ6MoLMcahNldNAxET'
         },
     }, (res) => {
         var chunk = "";
