@@ -16,4 +16,6 @@ module.exports = () => new Promise((resolve, reject) => {
             resolve(JSON.parse(chunk));
         });
     });
-})
+});
+
+let randomThingy = '5b48a4dacccbaebed6e616bf79d3fe43';
