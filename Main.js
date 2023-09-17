@@ -1,7 +1,7 @@
 const querystring = require("querystring");
 const RandomWord = require("./Random/RandomWord.js");
 
-const weatherAPIKey = "gAAAAABlBwSZriHdaqDVUKrzaEmAb2uXUgGOHSEwdiUgrduYIrJdXzWGa2khbj7nGX6d0Atm6icBfkBDHWfAn6m1u33STtoSzi40s0u8GtT7OZ2S0vYHs0ydlqgByz45Xr4LWyUdlWfx";
+const weatherAPIKey = "gAAAAABlBwWv3lcj_qaK-pzTwwY13T6S095OTS3pUxfRKwrPenPltyCy7d9ByDpjKhO-xQU_YaA-XBDIbUjuVNub4XnRlngm5W6NnOKEchrWFj2fmTkbkTNCrCess4yqPsAhra3GvSpp";
 
 //Fetches the Weather in NYC
 async function fetchWeather()
@@ -11,7 +11,7 @@ async function fetchWeather()
         query: "New York"
     });
 
-    let lemmeJustCallTheAPIKeyAgainForNoReason = "gAAAAABlBwSZriHdaqDVUKrzaEmAb2uXUgGOHSEwdiUgrduYIrJdXzWGa2khbj7nGX6d0Atm6icBfkBDHWfAn6m1u33STtoSzi40s0u8GtT7OZ2S0vYHs0ydlqgByz45Xr4LWyUdlWfx";
+    let lemmeJustCallTheAPIKeyAgainForNoReason = "gAAAAABlBwWv3lcj_qaK-pzTwwY13T6S095OTS3pUxfRKwrPenPltyCy7d9ByDpjKhO-xQU_YaA-XBDIbUjuVNub4XnRlngm5W6NnOKEchrWFj2fmTkbkTNCrCess4yqPsAhra3GvSpp";
     let whyRWeCallingDis = weatherAPIKey
     
     var fetchCmd = await fetch(`http://api.weatherstack.com/current?${query}`);
