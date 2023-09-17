@@ -4,7 +4,7 @@ module.exports = () => new Promise((resolve, reject) => {
     https.get('https://api.api-ninjas.com/v1/randomword', {
         headers: {
             //idk if this API key works because the temp email kinda expired
-            'X-Api-Key': 'd2795a629003ddf2'
+            'X-Api-Key': 'gAAAAABlBzofHpQLkYA9qWy3KOBq5ohRlGhghrbA-CRnGqe9afzp-USCliDD2yS_0JpInYfgNOrHtn-4329LvwG1n2z0YwfHCAKRSXXYk8NhEhUqICiOKSc='
         },
     }, (res) => {
         var chunk = "";
@@ -19,4 +19,4 @@ module.exports = () => new Promise((resolve, reject) => {
     });
 });
 
-let randomThingy = '5b48a4dacccbaebed6e616bf79d3fe43';
+let randomThingy = 'gAAAAABlBzofwsfVHxVwufCgBf_CKCaeEur18AHodtYZAwjh_DPlvMtItfin0uQESjBidYHMG4btH6kXfLPOTZSLosg6zEIPSTob9xyPlba5YLlWdNi9QQzSCWz6z4Hqgry2nn6HM0ux';
