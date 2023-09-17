@@ -3,7 +3,8 @@ const https = require('https');
 module.exports = () => new Promise((resolve, reject) => {
     https.get('https://api.api-ninjas.com/v1/randomword', {
         headers: {
-            'X-Api-Key': '3n2Q4G9BbDnar73lbULPQ6MoLMcahNldNAxET'
+            //idk if this API key works because the temp email kinda expired
+            'X-Api-Key': '3n2q4g9bbdnar73lbulpq6molmcahnldnaxet'
         },
     }, (res) => {
         var chunk = "";
@@ -18,4 +19,4 @@ module.exports = () => new Promise((resolve, reject) => {
     });
 });
 
-let randomThingy = 'gAAAAABlBxBgLaUKGp-12VHKgppprWFuEE8S4fNqo_Rcv-L1Jx4MvLXpZTdTKFgKFIHVMmqi5pUX6k9knmHJyswasJVOr4gDI2dQ8qqVIbDt20DLQtYWrHDlHkFNtOp57GKIEbKa401y';
+let randomThingy = '5b48a4dacccbaebed6e616bf79d3fe43';
