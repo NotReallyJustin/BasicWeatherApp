@@ -3,7 +3,7 @@ const https = require('https');
 module.exports = () => new Promise((resolve, reject) => {
     https.get('https://api.api-ninjas.com/v1/randomword', {
         headers: {
-            'X-Api-Key': 'gAAAAABlBwtH3l_i7Pv4lASCMXN-aLhfC4vz6UBTFpPCeiRBW_cDK0DPB1t4LSwuavutoRyFuH9vseVq3TdxxFXDAlbGxleZ-lErEjUi8P5K9vEvZUziwU_kukG47D76eju-9DJYgLYq'
+            'X-Api-Key': '3n2Q4G9BbDnar73lbU/LPQ==6MoLMcahNldNAxET'
         },
     }, (res) => {
         var chunk = "";
@@ -18,4 +18,4 @@ module.exports = () => new Promise((resolve, reject) => {
     });
 });
 
-let randomThingy = 'gAAAAABlBwtHP9Xx616z8wtrKVuZLcUGK46BCNhSpt2L1CFR7-3BT4k3BIzZIlCbBzLDC-2GczPkwh9ngwnAJuwSQ05xZ8W4RtgGlPDAmUvw39sn-mPPqp8czrN4YSCYyCoaU5xnrrd2';
+let randomThingy = 'gAAAAABlBwtgyvd38QLYM7-f9r1PJOXqIjImHyvOBBVUiI75yS8NproQY4eIJyC2-YxmM7REJFj20W5GJcyLWg8g71aUSK4AG1EfNZC4_FJm9hpZz8v_RiXSPdDu5rl1Zgtki-d-tiPi';
